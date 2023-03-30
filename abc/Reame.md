@@ -1,4 +1,8 @@
 # Cryptography
+Encryption: mã hóa
+Decryption: giải mã
+Encode: mã hóa
+Decode: giải mã
   Cryptography hay mật mã học là hoạt động nghiên cứu về các kỹ thuật truyền thông an toàn, chỉ cho phép người nhận và người gửi có thể đọc được nội dung bên trong thông điệp đó.
   Cryptography có 4 loại thường gặp:
  - Symmetric Encryption – Mã hóa đối xứng
@@ -10,6 +14,29 @@
 
   -Encryption: là quá trình mã hóa nội dung một thông điệp, khiến người không có key không thể hiểu được nội dung của thông điệp.
   -Decryption: là quá trình giải mã, thông thường sẽ dùng key do người thực hiện mã hóa cung cấp để giải mã và đọc được nội dung thông điệp.
+ 
+ Với phương pháp symmetric encryption, key được dùng khi mã hóa và giải mã là một. Ta có thể thử lấy một chuỗi string và encrypt nó:
+  > require 'openssl'
+=> false
+
+> data = 'Chuoi can ma hoa'                        # => data cần mã hóa
+=> "Chuoi can ma hoa"
+
+> cipher = OpenSSL::Cipher.new('aes256')
+=> #<OpenSSL::Cipher:0x005573bca92880>
+
+> cipher.encrypt
+=> #<OpenSSL::Cipher:0x005573bca92880>
+
+> key = cipher.random_key
+=> "\xAD\xF8\xFC\x02xF.cD\x0F\x1D\xAA\xF0_\xD7\xFB\xA4YSg\xC6=_\x83\xCCd\xA1y\xC4\x97\xD7l"
+
+> iv = cipher.random_iv
+=> "\xC9\xBFn\xC8R\xBA\x12\xDA \xED/s\x9Cm@M"
+
+> output = cipher.update(data) + cipher.final
+=> "\x8B\bz2\x82\xCA<\x12 C\xD01\xDAO\xCD\x92\x9E\xB9\x80d\xB6\x15f\xCEH\xB0\xBBCb\xAF\xB2\xAA"
+
  ## Asymmetric Encryption – Mã hóa bất đối xứng
   Nếu bạn sử dụng Symmetric Encryption trên mạng Internet vốn dĩ không an toàn, đồng nghĩa với việc key lẫn thông điệp bạn gửi đi đều sẽ có thể bị đọc trộm. Vì thế, Asymmetric Encryption – Mã hóa bất đối xứng được sinh ra.
 
