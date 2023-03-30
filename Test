@@ -1,7 +1,0 @@
-# include <iosteam>
-usng namespace std;
-int main ()
-{
-cout << "Hello world";
-return 0;
-}
