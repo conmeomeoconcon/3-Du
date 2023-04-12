@@ -28,4 +28,4 @@ FLAG ^ KEY1 ^ KEY3 ^ KEY2 = 04ee9855208a2cd59091d04767ae47963170d1660df7f56f5faf
 
 		print(flag)
 ***Lưu ý***: Sau khi XOR KEY ra FLAG xong thì trong FLAG sẻ có 2 kí tự đầu là ox là kí tự định dạng cho bytes, nên khi ta đổi FLAG về Hex thì phải bỏ nó ra
--Cờ là: ***crypto{x0r_i5_ass0c1at1v3}***
+-	Cờ là: ***crypto{x0r_i5_ass0c1at1v3}***
