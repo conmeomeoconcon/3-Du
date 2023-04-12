@@ -15,3 +15,6 @@
     print(flag)  
     
 - Cờ là: ***crypto{You_will_be_working_with_hex_strings_a_lot}***
+- bạn có thể tham khảo thêm:
+  + https://www.rapidtables.com/code/text/ascii-table.html
+  + https://en.wikipedia.org/wiki/Hexadecimal
