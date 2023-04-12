@@ -17,3 +17,4 @@
 	print(flag)
 '''
 	
+Cờ là :crypto{ASCII_pr1nt4bl3}
