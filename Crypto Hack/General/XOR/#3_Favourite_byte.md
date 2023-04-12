@@ -7,9 +7,7 @@
 -	Ta thấy câu "I've hidden some data using XOR with a single byte" nghĩa là bạn phải XOR với đúng cái bytes mà đề đang dấu trong 256 bytes nên ta sẻ cho chạy trong khoảng [0:255].
 -	Vì flag chắc chắn sẻ có "crypto", nên ta sẻ cho nó chạy đến khí đến khi thấy chứ "crypto" trong đó thì in ra.
 # code mẫu
-		from binascii import unhexlify
-
-		data = unhexlify('73626960647f6b206821204f21254f7d694f7624662065622127234f726927756d')
+		data = bytes.fromhex('73626960647f6b206821204f21254f7d694f7624662065622127234f726927756d')
 		data2=[]
 
 		for i in data:
