@@ -11,20 +11,20 @@
 - Sau đó xor key với data ta sẻ tìm đc đáp án
 # code mẫu
 - Tìm key
-  from pwn import xor
+    from pwn import xor
 
-  data = bytes.fromhex('0e0b213f26041e480b26217f27342e175d0e070a3c5b103e2526217f27342e175d0e077e263451150104')
-  flag=b'crypto{'
-  key=xor(flag,data)
-  print(key)
+    data = bytes.fromhex('0e0b213f26041e480b26217f27342e175d0e070a3c5b103e2526217f27342e175d0e077e263451150104')
+    flag=b'crypto{'
+    key=xor(flag,data)
+    print(key)
 - Sau khi xong đoạn code này ta sẻ có đoạn:b'myXORke+y_Q\x0bHOMe$~seG8bGURN\x04DFWg)a|\x1dTM!an\x7f'
 - Sau đó ta gán key=myXORkey
 
-  from pwn import xor
+    from pwn import xor
 
-  data = bytes.fromhex('0e0b213f26041e480b26217f27342e175d0e070a3c5b103e2526217f27342e175d0e077e263451150104')
+    data = bytes.fromhex('0e0b213f26041e480b26217f27342e175d0e070a3c5b103e2526217f27342e175d0e077e263451150104')
 
-  key=b'myXORkey'
-  flag=xor(key,data)
-  print(flag)
+    key=b'myXORkey'
+    flag=xor(key,data)
+    print(flag)
 - Cờ là: ***crypto{1f_y0u_Kn0w_En0uGH_y0u_Kn0w_1t_4ll}***
