@@ -11,7 +11,7 @@ KEY2 ^ KEY1 = 37dcb292030faa90d07eec17e3b1c6d8daf94c35d4c9191a5e1e
 KEY2 ^ KEY3 = c1545756687e7573db23aa1c3452a098b71a7fbf0fddddde5fc1
 FLAG ^ KEY1 ^ KEY3 ^ KEY2 = 04ee9855208a2cd59091d04767ae47963170d1660df7f56f5faf
 - Ở bài này sau khi ta chuyển hết dữ liệu về Decimal thì ta có thể tìm KEY2 từ việc XOR dòng 2 với KEY1, KEY3 bằng cách XOR KEY2 mới tìm được với dòng 2, và tương tự như vậy để tìm ra flag. Ví dụ:KEY3 = KEY2^'c1545756687e7573db23aa1c3452a098b71a7fbf0fddddde5fc1'
-# Code mẫu
+## Code mẫu
 		from Crypto.Util.number import*
 
 		key1=int('a6c8b6733c9b22de7bc0253266a3867df55acde8635e19c73313',16)
@@ -27,5 +27,5 @@ FLAG ^ KEY1 ^ KEY3 ^ KEY2 = 04ee9855208a2cd59091d04767ae47963170d1660df7f56f5faf
 		flag=bytes.fromhex(flag).decode()
 
 		print(flag)
-***Lưu ý***:sau khi XOR KEY ra FLAG xong thì trong FLAG sẻ có 2 kí tự đầu là ox là kí tự định dạng cho bytes, nên khi ta đổi FLAG về Hex thì phải bỏ nó ra
+***Lưu ý***: Sau khi XOR KEY ra FLAG xong thì trong FLAG sẻ có 2 kí tự đầu là ox là kí tự định dạng cho bytes, nên khi ta đổi FLAG về Hex thì phải bỏ nó ra
 -Cờ là: ***crypto{x0r_i5_ass0c1at1v3}***
