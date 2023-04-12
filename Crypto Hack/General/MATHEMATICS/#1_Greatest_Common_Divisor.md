@@ -26,10 +26,10 @@
 		b = int(52920)
 
 		while a%b!=0:
-				if a>b:
-						a=a-b
-				else:
-						b=b-a
+			if a>b:
+				a=a-b
+			else:
+				b=b-a
 
 		print(a)  
 - Cờ là: ***1512***
