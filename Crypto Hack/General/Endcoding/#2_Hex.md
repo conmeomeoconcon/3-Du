@@ -6,8 +6,8 @@
 -	Để giải challenge này thì ta phải chuyển dãy này về Bytes
 -	63727970746f7b596f755f77696c6c5f62655f776f726b696e675f776974685f6865785f737472696e67735f615f6c6f747d
 -	Để chuyển về thì ta được gợi ý sử dụng các hàm:
-  + bytes.fromhex(): Chuyển từ hex sang bytes
-  + bytes.hex() : Chuyển từ bytes sang hex
+    + bytes.fromhex(): Chuyển từ hex sang bytes
+    + bytes.hex() : Chuyển từ bytes sang hex
 ## code mẩu
 
     data='63727970746f7b596f755f77696c6c5f62655f776f726b696e675f776974685f6865785f737472696e67735f615f6c6f747d'
