@@ -3,7 +3,7 @@
 - Ở challenge này sẻ giúp bạn trau dồi và năng cao khả năng làm việc với XOR của bạn
 - Đề cho ta 1 đoạn mã Hex: 0e0b213f26041e480b26217f27342e175d0e070a3c5b103e2526217f27342e175d0e077e263451150104
 - Ta sẻ đổi mã Hex này thành mã nhị phân
-- Sau đó thay vì phải ép nó vào mảng để XOR thì ta có thể dùng hàm xor trong thư viện pwn
+- Sau đó thay vì phải ép nó vào mảng để XOR thì ta có thể dùng hàm xor() trong thư viện pwn
 - Ta thấy "I've encrypted the flag with my secret key, you'll never be able to guess it." nên ta có flag=data^key <--> key=data^flag
 - Vì cờ chắc chắn sẻ có "crypto{" nên ta gán flag="crypto"
 - Sau đó đem flag xor với data ta đc: b'myXORke+y_Q\x0bHOMe$~seG8bGURN\x04DFWg)a|\x1dTM!an\x7f'
