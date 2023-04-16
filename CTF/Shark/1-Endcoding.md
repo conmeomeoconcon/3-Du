@@ -44,7 +44,7 @@
 
 Với đoạn code này ta sẻ có đc block4 là: ***bigInterger***
 
-# Code mẩu
+## Code mẩu
 
 #Chall này dựa vào kiến thức General và tạo acc Cryptohack
 
