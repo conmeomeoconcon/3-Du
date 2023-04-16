@@ -14,4 +14,4 @@
     f_block_3 = 626173653634
     f_block_2 = 'rohknomswkv'
 - Ta được gợi ý là "Chall này dựa vào kiến thức General và tạo acc Cryptohack nên ta nghĩ ngay đến
-- +
+    +
