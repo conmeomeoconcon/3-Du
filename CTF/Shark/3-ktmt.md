@@ -1,5 +1,5 @@
 # ktmt
-![image](https://user-images.githubusercontent.com/128831586/232323670-7042b82a-20a3-40da-8d5b-78a6be1d5adb.png)
+![image](https://user-images.githubusercontent.com/128831586/232325454-c700efba-3466-46c9-8e4f-47e33d20ca23.png)
 - Chúng ta có thể thấy bài này khá giống với bài Favourite byte trên Cryptohack nên ta làm y chang như vậy
 
 - Đầu tiên chúng ta Xor key với output, vì ta biết flag sẻ có dạng là 'Shark{' nên ta gán flag là b'Shark{' và xor với output
