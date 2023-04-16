@@ -13,4 +13,4 @@
     print(s)
 
 - Sau khi decode về ascii thì nhìn vào đề ta thấy đề là Rabbit_On_Table13 và đoạn gợi ý là "#Con số mà nhiều người coi là không tốt thường được bỏ qua trong các khu vực đếm số, vì nó được cho là mang lại điều không may và rủi ro." nên ta phân tích thành ROT13 từ đó ta tìm thử tool rot13 và nó gợi ý cho ta tool rot13 cipher
-- Sau khi sử dụng tool rot13 thì ta thu được "let_me_down_slowly" suy ra flag là: ***Shark{let_me_down_slowly}
+- Sau khi sử dụng tool rot13 thì ta thu được "let_me_down_slowly" suy ra flag là: ***Shark{let_me_down_slowly}***
