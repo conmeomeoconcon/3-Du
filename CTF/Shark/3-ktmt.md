@@ -4,7 +4,7 @@
 
 - Đầu tiên chúng ta Xor key với output, vì ta biết flag sẻ có dạng là 'Shark{' nên ta gán flag là b'Shark{' và xor với output
 
-#HVC là gì, bối rối quá trời lunnnnn
+    #HVC là gì, bối rối quá trời lunnnnn
 
     def xor(a: bytes, b: bytes):
         return bytes([a[i%len(a)] ^ b[i%len(b)] for i in range(max(len(a), len(b)))])
