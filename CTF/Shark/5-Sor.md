@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/128831586/232324977-e8f9dc79-5997-4673-ba60-0719a196cc47.png)
 - Ở challenge này chúng ta có thể thấy nó khá giống với challenge "XOR Properties" của Cryptohack nên ta sẻ làm giống như vậy.
 
-# Code mẫu
+## Code mẫu
 
     #Tìm flag và bạn sẽ thấy ai là người đẹp trai nhất
 
