@@ -1,5 +1,5 @@
 # Endcoding
-![image](https://user-images.githubusercontent.com/128831586/232325227-3c56712e-233b-4816-996d-0d234d0f7c0a.png)
+![image](https://user-images.githubusercontent.com/128831586/232325331-96c51552-f75c-41ec-b15b-9902d73b5add.png)
 - Đây là challenge đầu tiên của Shark_CTF_Crypto do team Shark tổ chức cụ thể là Trần Anh Nhật Việt bao sân, tạo ra các bài CTF để kiểm tra khả năng của tụi chơi Crypto như tụi mình.
 - Challenge này nhằm kiểm tra khả năng giải endcoding của tụi mình.
 - Đề như sau
